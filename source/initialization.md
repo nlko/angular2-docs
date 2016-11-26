@@ -31,7 +31,7 @@ It's easy, just replace `es6`, `es2015` or similar options from `compilerOptions
 
 Since `typed-graphql` is not a package under `@types` scope, it's not visible by TypeScript compiler.
 
-There are to ways of changing this.
+There are two ways of changing this.
 
 First approach would be to include `node_modules/typed-graphql/graphql.d.ts` to your project. Take a look at [TypeScript documenation](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html).
 
